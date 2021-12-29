@@ -4,19 +4,19 @@ import GlobalStyle from "./styles/global";
 import { Container, Content } from "./styles";
 
 import Upload from "./components/Upload";
-/* import FileList from "./components/FileList";
+import FileList from "./components/FileList";
 
-import { FileProvider } from "./context/files"; */
+import { FileProvider } from "./context/files";
   const App: React.FC = () => (
-   /*  <FileProvider> */
+     <FileProvider> 
       <Container>
         <Content>
           <Upload />
-         {/*  <FileList /> */}
+           <FileList /> 
         </Content>
         <GlobalStyle />
       </Container>
- /*    </FileProvider> */
+    </FileProvider>
   )
 
 

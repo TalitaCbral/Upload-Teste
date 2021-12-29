@@ -1,26 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+ 
+import GlobalStyle from "./styles/global";
+import { Container, Content } from "./styles";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import Upload from "./components/Upload";
+/* import FileList from "./components/FileList";
+
+import { FileProvider } from "./context/files"; */
+  const App: React.FC = () => (
+   /*  <FileProvider> */
+      <Container>
+        <Content>
+          <Upload />
+         {/*  <FileList /> */}
+        </Content>
+        <GlobalStyle />
+      </Container>
+ /*    </FileProvider> */
+  )
+
 
 export default App;

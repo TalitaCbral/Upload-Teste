@@ -14,4 +14,11 @@ export const Content = styled.div`
     background: #fff;
     border-radius: 4px;
     padding: 20px;
+
+    img {
+        width: 90%;
+        max-width: 400px;
+        display: flex;
+        padding-bottom: 10px;
+    }
 `;

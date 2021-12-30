@@ -26,7 +26,8 @@ function Upload() {
       onDrop,
     });
 
-  const renderDragMessage = useCallback(() => {
+
+const renderDragMessage = useCallback(() => {
     if (!isDragActive) {
       return <UploadMessage>Arraste imagens aqui...</UploadMessage>;
     }

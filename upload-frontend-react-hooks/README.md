@@ -1,6 +1,7 @@
 # Upload FrontEnd - React
 
-Programa que permite upload de imagens de no máximo 2mb através de dropzone.
+Programa que permite upload de pdf's e imagens com a funcionalidade de arrastar
+o arquivo e soltar em nossa dropzone.
 
 # 🛠 Technologies
 
@@ -30,3 +31,8 @@ $ npm run start
 # Access localhost
 http://localhost:3000
 ```
+
+# 🎌 Demo
+
+<h1 align="center">
+<img href="https://picasion.com/"><img src="https://i.picasion.com/pic91/a0ccf9ac750f1989c2a779b96c45cff2.gif"   alt="https://picasion.com/"/> </h1>
